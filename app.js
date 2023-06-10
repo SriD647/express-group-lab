@@ -1,5 +1,5 @@
 const express = require('express')
-const morgan = require('morgan')
+const morgan = require('morgan')// another middleware
 const userRoutes = require('./routes/userRoutes')
 const app = express()
 const jsxEngine =  require('jsx-view-engine')
